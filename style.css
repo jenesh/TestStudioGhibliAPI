@@ -9,6 +9,9 @@
 .card {
     margin: 1rem;
     border: 1px solid gray;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
 }
 @media screen and (min-width: 600px) {
     .card {
