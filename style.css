@@ -12,14 +12,22 @@
     padding: 15px;
     border-radius: 10px;
     text-align: center;
+    box-shadow: 1px 1px 10px 3px rgba(0,0,0,.1);
+}
+.card:hover {
+    margin: 10px 0 10px 0;
+
+}
+img {
+    margin: 0 auto;
 }
 @media screen and (min-width: 600px) {
     .card {
-        flex: 1 1 calc(50% - 2rem);
+        flex: 2 2 calc(50% - 25%);
     }
 }
 @media screen and (min-width: 900px) {
     .card {
-        flex: 1 1 calc(33% - 2rem);
+        flex: 1 1 calc(33% - 16%);
     }
 }
