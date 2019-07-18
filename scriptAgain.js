@@ -2,11 +2,19 @@ const app = document.getElementById('root');
 const container = document.createElement('div');
 container.setAttribute('class', 'container');
 const logo = document.createElement('img');
+logo.setAttribute('class', 'logo');
 logo.src = './assets/logo.png';
+const header = document.createElement('div');
+header.setAttribute('class', 'header');
+const footer = document.createElement('footer');
+const disclamer = document.createElement('marquee');
+disclamer.innerHTML = "<p><a href='https://ghibliapi.herokuapp.com/' target='_blank'>Studio Ghibli API</a></p>";
 
-app.appendChild(logo);
+app.appendChild(header);
+header.appendChild(logo);
 app.appendChild(container);
-
+app.appendChild(footer);
+footer.appendChild(disclamer);
 
 const request = new XMLHttpRequest();
 

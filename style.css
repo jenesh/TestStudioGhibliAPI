@@ -1,3 +1,6 @@
+body {
+    /* background-color: rgba(247, 89, 89, 0.1); */
+}
 #root {
     max-width: 1200px;
     margin: 0 auto;
@@ -5,25 +8,46 @@
 .container {
     display: flex;
     flex-wrap: wrap;
+    /* background-color: rgba(0,0,0,.5); */
+}
+.header {
+    text-align: center;
+    padding: 50px;
+    border-bottom: 1px solid rgba(0,0,0,.3);
+    box-shadow: 0 10px 5px rgba(4, 121, 255, 0.1);
+    border-radius: 5px;
 }
 .card {
     margin: 1rem;
-    border: 1px solid gray;
-    padding: 15px;
+    /* border: 1px solid gray; */
+    padding: 20px;
     border-radius: 10px;
     text-align: center;
-    box-shadow: 1px 1px 10px 3px rgba(0,0,0,.1);
+    box-shadow: 1px 1px 10px 3px rgba(0,0,0,.2);
     transition-duration: .5s;
-    background-color: papayawhip;
+    /* background-color: rgba(207, 134, 16, 0.308); */
+    background-color: rgba(177, 3, 3, 0.726);
 }
-.card:hover {
+.card:hover{
     /* margin: 10px 0 10px 0; */
     transform: scale(1.05);
     transition-duration: .75s;
-    box-shadow: 1px 1px 10px 3px rgba(0,0,0,.25);
+    box-shadow: -1px 10px 10px 5px rgba(0,0,0,.3);
+    background-color: rgb(224, 85, 85);
+    border-color: rgba(0,0,0,.2);
+    
+}
+.card:hover h1 {
+    color: white;
+    transition-duration: .5s;
+}
+.card:hover p {
+    color: white;
+    transition-duration: .5s;
 }
 h1 {
-    color: greenyellow;
+    color: rgb(105, 180, 230);
+    text-shadow: -2px 1px #000;
 }
 img {
     margin: 0 auto;
