@@ -8,7 +8,8 @@ body {
 .container {
     display: flex;
     flex-wrap: wrap;
-    /* background-color: rgba(0,0,0,.5); */
+    /* background-color: rgba(0,0,0,. 5); */
+    padding-top: 20px;
 }
 .header {
     text-align: center;
@@ -16,6 +17,15 @@ body {
     border-bottom: 1px solid rgba(0,0,0,.3);
     box-shadow: 0 10px 5px rgba(4, 121, 255, 0.1);
     border-radius: 5px;
+}
+.footer {
+    /* background-image: radial-gradient( white, yellow, orange, rgb(255, 0, 0), rgb(138, 40, 40), blue); */
+    background-image: radial-gradient(red, white);
+    border-radius: 5px;
+    font-weight: 900;
+    text-shadow: 1px 1px 3px lightskyblue;
+    padding: 5px;
+    vertical-align: center;
 }
 .card {
     margin: 1rem;
